@@ -1,6 +1,7 @@
 import cohere
 from cohere.responses.classify import Example
 import streamlit as st
+from PIL import Image
 
 co = cohere.Client('kxVhnc8p8sLbAYsblZiGAcRi0tPwdoYvYfcXcnkb')
 
