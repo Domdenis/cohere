@@ -5,7 +5,11 @@ import streamlit as st
 co = cohere.Client('kxVhnc8p8sLbAYsblZiGAcRi0tPwdoYvYfcXcnkb')
 
 st.title("Module de détection de propos sexistes")
+<<<<<<< HEAD
 st.subheader('sur la base du modele sentiment analysis de cohere')
+=======
+st.subheader("sur la base du modele sentiment analysis de co:here")
+>>>>>>> dark design
 st.markdown("Cette application est un module de détection de propos sexiste. Elle est basée sur le modèle de sentiment analysis de co:here. Elle peut être utiliser comme filtre avant la publication sur des forums ou des commentaires.")
 
 
