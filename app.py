@@ -6,7 +6,7 @@ co = cohere.Client('kxVhnc8p8sLbAYsblZiGAcRi0tPwdoYvYfcXcnkb')
 
 st.title("Module de détection de propos sexistes")
 st.subheader("sur la base du model sentiment analysis de cohere")
-st.markdown("Cette application est un module de détection de propos sexiste. Elle est basée sur le modèle de sentiment analysis de co:here. Elle peut être utiliser comme filtre avant la publication sur des forums ou des commentaires.")
+st.markdown("Cette application est un module de détection de propos sexiste. Elle peut être utiliser comme filtre avant la publication sur des forums ou des commentaires.")
 
 
 examples=[
