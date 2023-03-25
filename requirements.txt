@@ -1,0 +1,22 @@
+# packaging
+pip>=9
+setuptools>=26
+twine
+wheel>=0.29
+
+# tests/linter
+black
+coverage
+flake8
+pytest
+yapf
+
+# prevent bq 3+ db-dtypes package error when running training from bq
+google-cloud-bigquery<3.0.0
+google-cloud-storage
+pyarrow
+
+# API
+uvicorn
+streamlit
+cohere
