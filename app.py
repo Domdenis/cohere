@@ -4,6 +4,10 @@ import streamlit as st
 
 co = cohere.Client('kxVhnc8p8sLbAYsblZiGAcRi0tPwdoYvYfcXcnkb')
 
+#config header de la page
+favicon = Image.open("favi.png")
+st.set_page_config(page_title='Sexist hunters', page_icon=favicon)
+
 st.title("Module de détection de propos sexistes")
 st.subheader("sur la base du model sentiment analysis de cohere")
 st.markdown("Cette application est un module de détection de propos sexiste. Elle peut être utiliser comme filtre avant la publication sur des forums ou des commentaires.")
